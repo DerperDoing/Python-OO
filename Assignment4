@@ -1,0 +1,11 @@
+class Student:
+    def displayheader(self,char, no=1):
+        print(char*no)
+
+test=Student()
+test.displayheader("Annual Report - FY16")
+test.displayheader('=',20)
+test.displayheader('*',46)
+print(' '*10,end='')
+test.displayheader("Rict Engineering College")
+test.displayheader('*', 46)
