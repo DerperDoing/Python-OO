@@ -1,5 +1,5 @@
 class Student:
-    def __init__(self,studentid,studentname,qualifyingexammarks, residentialstatus, yearofengg, branchname):
+    def __init__(self,studentid=1,studentname="ljdvmxlck", qualifyingexammarks=46.5, residentialstatus='j', yearofengg=3, branchname="CS"):
         self.__studentid = studentid
         self.__studentname = studentname
         self.__qualifyingexammarks = qualifyingexammarks
@@ -13,7 +13,6 @@ class Student:
         print("Residential Status: ", self.__residentialstatus)
         print("Current Year of Engineering: ",self.__yearofengg)
         print("Branch Name: ",branchname)
-
-deets=Student(1,"Addy",46.34,"Hostle",3,"CSE")
+deets=Student()
 
 #deets=Student("PUT VALUES ACCORDINGLY FOR 2nd PART OF THIS ASSIGNMENT :D")
