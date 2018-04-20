@@ -1,9 +1,5 @@
 class Student :
-    __studentid = 0
-    __qualifyingexammarks = 00.00
-    __residentialstatus = ""
-    __yearofengg = 1
-    
+        
     def setstudentid(self, id1):
         self.__studentid = id1
 
